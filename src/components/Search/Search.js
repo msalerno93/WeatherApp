@@ -33,7 +33,7 @@ const loadOptions = (inputValue) => {
     <div>
         <AsyncPaginate 
             placeholder='Search for City'
-            debounceTimeout={600}
+            debounceTimeout={400}
             value={search}
             onChange={handleOnChange}
             loadOptions={loadOptions}
